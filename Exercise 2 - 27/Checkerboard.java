@@ -18,5 +18,13 @@ public class Checkerboard {
 		
 		}
 		
+		System.out.println("\n");
+		
+		for (i=0; i<9; i++){
+		if (i==0 || i==8)
+			System.out.println("*********"); else
+				System.out.println("*       *");
+		}
+		
 	}
 }
