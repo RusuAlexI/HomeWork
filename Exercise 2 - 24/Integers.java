@@ -2,11 +2,12 @@ import java.util.Scanner;
 public class Integers {
 	public static void main (String args[]){
 	int i;
-	Scanner a = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
+
 	System.out.println("Enter the values of the 5 numbers:");
 	int array[]=new int[5];
 	for (i=0; i<5; i++){
-		array[i]=a.nextInt();
+		array[i]=scan.nextInt();
 	}
 	int min=array[0];
 	int max=array[0];
@@ -23,16 +24,29 @@ public class Integers {
 			
 	System.out.println("\nThe biggest number is "+max+" and the smallest number is "+min);
 	
+	int q,w,e,r,t;
+	
+	System.out.println("Enter the first number:");
+	q=scan.nextInt();
+	System.out.println("Enter the second number:");
+	w=scan.nextInt();
+	System.out.println("Enter the third number:");
+	e=scan.nextInt();
+	System.out.println("Enter the fourth number:");
+	r=scan.nextInt();
+	System.out.println("Enter the fifth number:");
+	t=scan.nextInt();
+
 		
-	/*if (a>b && a>c && a>d && a>e) {
-	System.out.println(a+" is the biggest number");} else
-	if (b>a && b>c && b>d && b>e) {
-	System.out.println(b+" is the biggest number");} else
-	if (c>b && c>b && c>d && c>e) {
-	System.out.println(c+" is the biggest number");} else
-	if (d>b && d>c && d>b && d>e) {
-	System.out.println(a+" is the biggest number");} else
-	if (e>b && e>c && e>d && e>a) {
-	System.out.println(e+" is the biggest number");} */
+	if (q>w && q>e && q>r && q>t) {
+	System.out.println(q+" is the biggest number");} else
+	if (w>q && w>e && w>r && w>t) {
+	System.out.println(w+" is the biggest number");} else
+	if (e>q && e>w && e>r && e>t) {
+	System.out.println(e+" is the biggest number");} else
+	if (r>q && r>w && r>e && r>t) {
+	System.out.println(r+" is the biggest number");} else
+	if (t>q && t>w && t>e && t>r) {
+	System.out.println(e+" is the biggest number");} 
 	}
 }
