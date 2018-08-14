@@ -10,7 +10,7 @@ public class MinMax {
 		System.out.print("What is the first number?\n");
 		j=scan.nextInt();
 		
-		k=i-j;
+		k=i-j; //I assign k the value of the operation,and then I will use it to check if i is bigger or smaller than j
 		System.out.println(k);
 		
 		if(k>0)	System.out.println(i+" is the biggest and "+j+" is smallest"); else 
