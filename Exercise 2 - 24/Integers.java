@@ -1,8 +1,7 @@
 import java.util.Scanner; //Imported this class to be anle to use System.in command and erad the inputs from the user
 public class Integers { //Integers - the name I gave this class
 	public static void main (String args[]){
-	int i; 
-	Scanner scan = new Scanner(System.in); //I declared the "scan" variable to be able to register the user input
+	int ifscan = new Scanner(System.in); //I declared the "scan" variable to be able to register the user input
 
 	System.out.println("Enter the values of the 5 numbers:");
 	int array[]=new int[5]; //I declared the "array" array in which I will input the 5 number that are needed to be analised

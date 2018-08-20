@@ -11,7 +11,7 @@ public class Odd_Integers {
 	
 	//Long way:
 	product2=1*3*5*7*9*11*13*15;
-	System.out.println("The product is "+product);
+	System.out.println("The product is "+product2);
 	
 	//looooong way:
 	
