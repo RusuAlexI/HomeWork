@@ -9,6 +9,7 @@ public class Exercise429 {
 
     public static void main(String[] args) {
         int i,j;
+        
         for(i=1;i<13;i++){ //count goes from 1 to 12, the number representing each day
             
             
@@ -44,6 +45,15 @@ public class Exercise429 {
                 case 12: System.out.print("12 Drummers Drumming,\n"); break;
             }
         }
+        }
+        
+        for(int k = 0; k < 10; k++){
+            System.out.println("Increment " + k);
+                 
+        }
+        
+        for(int w = 10; w > 0; w--){
+            System.out.println("Decrement " + w);
         }
         
     }

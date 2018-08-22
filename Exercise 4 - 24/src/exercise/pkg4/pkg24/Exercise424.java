@@ -20,7 +20,7 @@ public class Exercise424 {
        
                 if (i==1 || i==7) { //for the second and 8th row print *** on the screen
                     for(j=0; j<9;j++){
-                    if (j>2 && j<6) System.out.print("*"); else System.out.print(" ");} System.out.print("\n"); } else
+                     if (j>2 && j<6) System.out.print("*"); else System.out.print(" ");} System.out.print("\n"); } else
                     
                     if (i==2 || i==6) { //for the third and 7th row print ***** on the screen
                     for(j=0; j<9;j++){

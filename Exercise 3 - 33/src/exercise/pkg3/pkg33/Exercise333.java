@@ -18,4 +18,4 @@ public class Exercise333 {
     
 }
 
-//after I starte the infinite loop, the program reached the limit of the "int" size, and started displaying 0 until I stopped the proccess
+//after I started the infinite loop, the program reached the limit of the "int" size, and started displaying 0 until I stopped the proccess
