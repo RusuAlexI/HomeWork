@@ -8,7 +8,7 @@ public class Exercise423 {
  
     public static void main(String[] args) {
         int number,i;
-        long factorial=1;
+        long factorial=1L;
         Scanner scan=new Scanner(System.in); //we assign the variable "scan" to use it to scan the input, and assign it to a different variable separating them with a dot. 
               
         

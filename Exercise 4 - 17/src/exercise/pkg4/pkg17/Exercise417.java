@@ -26,7 +26,6 @@ while(productNumber<6 && productNumber>0) //we do the calculations WHILE the inp
 //test if we need to exit the program
         if(productNumber>=6 && productNumber<=0){
         break;
-
             }
 ///We read the quantity sold
         System.out.print("Enter quantity sold: ");
