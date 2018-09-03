@@ -8,6 +8,7 @@ public class Exercise3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please type an even number (or 999 to stop):");
         int i = sc.nextInt();
+        
         while(i!=999)
             {
                 if(i%2==0) {System.out.println("Good Job! "+i+" is an even number, please insert the next number, or 999 to exit.");i = sc.nextInt();}
