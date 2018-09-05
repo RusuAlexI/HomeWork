@@ -5,9 +5,11 @@ package exercise.methods.pkg4;
 
 public class Sandwich {
     
-    public String ingredient;
-    public String breadType;
-    public double price;
+    private String ingredient = "";
+    private String breadType = "";
+    private double price = 0;
+    
+    public static int k = 4;
     
     public Sandwich() {
         this("ingredients","bread type",0);
@@ -43,6 +45,8 @@ public class Sandwich {
         this.price = price;
     }
     
-    
+    public static void burnBread(){
+        System.out.println("AAaaaaaa!");           
+    }
     
 }

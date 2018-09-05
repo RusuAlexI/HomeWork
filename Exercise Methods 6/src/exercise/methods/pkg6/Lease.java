@@ -4,10 +4,10 @@ package exercise.methods.pkg6;
 
 public class Lease {
     
-    String tenantName;
-    int apartmentNumber;
-    float monthlyRentAmount;
-    int termOfLease;
+    private String tenantName;
+    private int apartmentNumber;
+    private float monthlyRentAmount;
+    private int termOfLease;
     
     public Lease(){
     this("XXX",0,1000,12);
@@ -58,8 +58,14 @@ public class Lease {
     
     }
     
-    public void explainPetPolicy(){
+    public static void explainPetPolicy(){
         System.out.println("The pet fee is 10$ added to the rent amount.");
 
     }
+
+    @Override
+    public String toString() {
+        return "Lease{" + "tenantName=" + tenantName + ", apartmentNumber=" + apartmentNumber + ", monthlyRentAmount=" + monthlyRentAmount + ", termOfLease=" + termOfLease + '}';
+    }
+    
 }

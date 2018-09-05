@@ -42,27 +42,29 @@ public class ExerciseFlow_Control {
               thirdNumber=scan.nextInt();
               
               if(firstNumber>secondNumber && firstNumber>secondNumber)*/
+              //Showing the array:
+              System.out.println("Please type the size of the array:");
+              int n=scan.nextInt();
               
-              int[] integers=new int[3];
-              int[] integersAscending=new int[3];
+              int[] integers=new int[n];
+              int[] integersAscending;
               int temp;
               
               //Declaring the array:
               
-              for(i=0;i<3; i++){
+              for(i=0;i<n; i++){
                   System.out.println("Please insert the "+(i+1)+" number:");
                   integers[i]=scan.nextInt();
               }
-              //Showing the array:
               
-              for(i=0;i<3; i++){
+              for(i=0;i<n; i++){
                   System.out.print(integers[i]+" ");
               } System.out.println("\n");
               
               integersAscending=integers;
               
-                for(i=0; i<3; i++){
-                  for(j=i+1;j<3;j++){
+                for(i=0; i<n-1; i++){
+                  for(j=i+1;j<n;j++){
                   if (integersAscending[i]>integersAscending[j]){
                         temp = integersAscending[i];
                         integersAscending[i] = integersAscending[j];
@@ -72,13 +74,13 @@ public class ExerciseFlow_Control {
               
               
               System.out.println("Ascending order:");
-              for(i=0;i<3; i++){
+              for(i=0;i<n; i++){
                   System.out.print(integersAscending[i]+" ");
               } System.out.print("\n");
               
               
               System.out.println("Descending order:");
-              for(i=2;i>=0; i--){
+              for(i=n-1;i>=0; i--){
                   System.out.print(integersAscending[i]+" ");
               } System.out.print("\n");
               

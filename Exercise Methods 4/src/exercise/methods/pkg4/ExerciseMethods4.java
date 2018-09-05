@@ -8,17 +8,29 @@ public class ExerciseMethods4 {
 
     public static void main(String[] args) {
         
-        Scanner scan=new Scanner(System.in);
+        //Scanner scan=new Scanner(System.in);
 
 
-        Sandwich sandwich=new Sandwich("carp","scale",250.6);
+        Sandwich s=new Sandwich("carp","scale",250.6);
         
-        System.out.println(sandwich.getBreadType()+" "+sandwich.getIngredient()+"  "+sandwich.getPrice());
+        Sandwich s2 = new Sandwich();
         
-        sandwich.setBreadType("asd");
-        sandwich.setIngredient("dsa");
-        sandwich.setPrice(145.3);
-        System.out.println(sandwich.getBreadType()+" "+sandwich.getIngredient()+"  "+sandwich.getPrice());
+        Sandwich.k++;
+        s.k++;
+        
+        Sandwich.burnBread();
+        s.burnBread();
+        
+        /*Sandwich.breadType;
+        
+        Sandwich.getBreadType();*/
+        
+        System.out.println(s.getBreadType()+" "+s.getIngredient()+"  "+s.getPrice());
+        
+        s.setBreadType("asd");
+        s.setIngredient("dsa");
+        s.setPrice(145.3);
+        System.out.println(s.getBreadType()+" "+s.getIngredient()+"  "+s.getPrice());
         
     }
     
