@@ -143,7 +143,8 @@ public class ExerciseFlow_Control {
                       if(arrayGuesses[j]==arrayRandom[i]) {match2++; break;}
                   
                   }
-              } if(match2==1) System.out.println("You have won 10$"); else
+              } 
+              if(match2==1) System.out.println("You have won 10$"); else
                   if(match2==2) System.out.println("You have won 100$"); else
                       if(match2==3 && match1!=3) System.out.println("You have won 1.000$"); else
                           System.out.println("You have no matches.");
@@ -256,7 +257,7 @@ public class ExerciseFlow_Control {
           case 9:
               
         //final int TWENTY_ONE = 21;
-        int playerOneEntry;
+       /* int playerOneEntry;
         int computerEntry = 0;
         int total = 0;
         System.out.println("Instructions, two players take turns by entering 1, 2, or 3 \n"+ "which is then added to a running total. Whoever makes the score go over twenty one "+ "loses\n");
@@ -356,10 +357,50 @@ public class ExerciseFlow_Control {
         }  
 
                   System.out.println("Please choose the exercise you want to do:");
+                    exercise=scan.nextInt(); break;*/
+
+//do program that asks who starts, me or PC,also to choose to what number to count(21 or more)
+
+              
+              int total,ingameTotal=0,playerOneEntry;
+
+              
+              System.out.println("What do you want to be the end number (bigger than 4)?");
+              total=scan.nextInt();
+              
+              int rest=total%4;
+              ingameTotal+=rest;
+              System.out.println("omputer entered "+rest);
+              
+              while(ingameTotal<total) {
+         
+              System.out.println("Player, please enter 1, 2, or 3 >>> ");
+            playerOneEntry = scan.nextInt();
+            while(playerOneEntry != 1 && playerOneEntry != 2 && playerOneEntry != 3) {
+                System.out.println("Player, please enter 1, 2, or 3 >>> ");
+                playerOneEntry = scan.nextInt();
+            }
+            ingameTotal += playerOneEntry;
+            System.out.println("The total is " + ingameTotal);
+            if(ingameTotal >= total) {
+                System.out.println("Player Wins!");
+                ingameTotal = total;
+            }
+            switch(playerOneEntry){
+                    case 1: ingameTotal+=3; System.out.println("Computer entered 3"); break;
+                    case 2: ingameTotal+=2; System.out.println("Computer entered 2"); break;
+                    case 3: ingameTotal+=1; System.out.println("Computer entered 1"); break;}
+
+
+            if(ingameTotal >= total) {
+                
+                System.out.println("Computer Wins!");
+                } else {
+                    System.out.println("The total is " + ingameTotal);
+                    }
+              } 
+              System.out.println("Please choose the exercise you want to do:");
                     exercise=scan.nextInt(); break;
-
-
-
               }
          
          }

@@ -34,7 +34,7 @@ public class ExerciseMethods1 {
     }
     
     static void displayNumberSquared(int i) {
-        System.out.println(i+" squared is "+(i * i));
+        System.out.println(i+" squared is "+(i*i));
     }
     
 }

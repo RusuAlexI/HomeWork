@@ -73,7 +73,7 @@ public class ExerciseData_Types {
                 
                 int adultMeals;
                 int  ChildMeal;
-                int totalCollected;
+                //int totalCollected;
                 
                 System.out.println("How many adult meals were ordered?");
                 adultMeals=scan.nextInt();
@@ -133,7 +133,8 @@ public class ExerciseData_Types {
                String adjective=scan.next();  
 
                
-               System.out.println(ex+"! he said "+adverb+" as he jumped into his convertible "+noun+"  and drove off with his "+adjective+" wife."); 
+               System.out.println(ex+"! he said "+adverb+" as he jumped into his convertible "+noun
+                       +"  and drove off with his "+adjective+" wife."); 
                
                 System.out.println("Please choose the exercise you want to do:");
                 exercise=scan.nextInt(); break;
