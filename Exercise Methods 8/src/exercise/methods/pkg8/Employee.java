@@ -3,9 +3,9 @@ package exercise.methods.pkg8;
 
 public class Employee {
     
-    String firstName;
-    String lastName;
-    double monthlySalary;
+    private String firstName;
+    private String lastName;
+    private double monthlySalary;
 
     public Employee(String firstName, String lastName, double monthlySalary) {
         this.firstName = firstName;

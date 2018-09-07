@@ -4,9 +4,9 @@ package exercise.methods.pkg7;
 
 public class Date {
     
-    int Month;
-    int Day;
-    int Year;
+    private int Month;
+    private int Day;
+    private int Year;
     
     public Date(){
     this(0,0,0);

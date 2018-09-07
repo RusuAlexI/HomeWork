@@ -14,11 +14,11 @@ public class ExerciseMethods7 {
         
         
         System.out.println("Type in the Year:");
-        date.Year=scan.nextInt();
+        date.setYear(scan.nextInt());
         System.out.println("Type in the Month:");
-        date.Month=scan.nextInt();
+        date.setMonth(scan.nextInt());
         System.out.println("Type in the Day:");
-        date.Day=scan.nextInt();
+        date.setDay(scan.nextInt());
         
         date.displayDate();
         

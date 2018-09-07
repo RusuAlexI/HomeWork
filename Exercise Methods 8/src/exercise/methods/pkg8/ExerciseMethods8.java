@@ -1,14 +1,14 @@
 
 package exercise.methods.pkg8;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class ExerciseMethods8 {
 
 
     public static void main(String[] args) {
         
-        Scanner scan=new Scanner(System.in); 
+        //Scanner scan=new Scanner(System.in); 
         
         Employee employee1=new Employee("First","Employee",1000);
         Employee employee2=new Employee("Second","Employee",+2000);
