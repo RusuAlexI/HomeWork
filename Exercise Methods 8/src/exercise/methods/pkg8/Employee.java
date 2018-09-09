@@ -18,7 +18,7 @@ public class Employee {
     }
 
     public String getFirstName() {
-        return firstName;
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {
@@ -26,7 +26,7 @@ public class Employee {
     }
 
     public String getLastName() {
-        return lastName;
+        return this.lastName;
     }
 
     public void setLastName(String lastName) {
@@ -34,7 +34,7 @@ public class Employee {
     }
 
     public double getMonthlySalary() {
-        return monthlySalary;
+        return this.monthlySalary;
     }
 
     public void setMonthlySalary(double monthlySalary) {

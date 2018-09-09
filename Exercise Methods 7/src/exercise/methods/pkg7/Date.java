@@ -6,7 +6,8 @@ public class Date {
     
     private int Month;
     private int Day;
-    private int Year;
+    private int Year;//variabile de instanta
+    //public static String CALENDAR_TYPE = "Gregorian"; exemplu de variabila de clas
     
     public Date(){
     this(0,0,0);
