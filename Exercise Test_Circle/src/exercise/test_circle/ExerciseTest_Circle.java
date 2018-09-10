@@ -11,8 +11,9 @@ public class ExerciseTest_Circle {
         Circle circle1=new Circle();
         Circle circle2=new Circle();
         
-        circle1.setRadius(3.2);
-        circle2.setRadius(10.2);
+        
+        circle1.setRadius(5.0);
+        circle2.setRadius(10.0);
         
         System.out.println("The values for all 3 circles:");
         
