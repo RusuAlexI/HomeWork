@@ -13,7 +13,7 @@ public class ExerciseTest_Circle {
         
         
         circle1.setRadius(5.0);
-        circle2.setRadius(10.0);
+        circle2.setRadius(40.0);
         
         System.out.println("The values for all 3 circles:");
         
