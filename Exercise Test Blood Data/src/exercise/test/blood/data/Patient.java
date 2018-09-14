@@ -2,18 +2,19 @@
 package exercise.test.blood.data;
 
 
-public class Patient extends BloodData{
+public class Patient{
     private int idNumber;
     private int age;
+    private BloodData bloodData; 
 
     public Patient() {
-        super();
+        this.bloodData = new BloodData();
         this.idNumber = 0;
         this.age = 0;
     }
 
-    public Patient(int idNumber, int age, String bloodType, char rhFactor) {
-        super(bloodType, rhFactor);
+    public Patient(int idNumber, int age, BloodData bloadData) {
+        this.bloodData = bloadData;
         this.idNumber = idNumber;
         this.age = age;
     }
@@ -26,5 +27,22 @@ public class Patient extends BloodData{
         return age;
     }
     
-    
+   public void setIdNumber(int idNumber){
+   this.idNumber=idNumber;
+   } 
+   
+   public void setAge(int age){
+   this.age=age;
+   }
+   
+   
+   public void setBloodData(BloodData bloodData){
+   
+       this.bloodData=bloodData;
+   }
+   
+   public BloodData getBloodData(){
+   return bloodData;
+   }
 }
+
