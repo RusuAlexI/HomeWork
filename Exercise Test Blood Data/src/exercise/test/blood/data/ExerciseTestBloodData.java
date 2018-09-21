@@ -12,14 +12,15 @@ public class ExerciseTestBloodData {
         System.out.println("Blood data 1 is: "+bloodData1.getBloodType()+" "+bloodData1.getRhFactor());
         System.out.println("Blood data 2 is: "+bloodData2.getBloodType()+" "+bloodData2.getRhFactor());
         
-        Patient patient1=new Patient(1, 18, bloodData2);
-        System.out.println("Patient 1 data is: Age - "+patient1.getAge()+" Blood type - "+
+        Patient patient1=new Patient(1, 18, bloodData1);
+        /*System.out.println("Patient 1 data is: Age - "+patient1.getAge()+" Blood type - "+
                 patient1.getBloodData()+" ID number - "+patient1.getIdNumber()
-               );
+               );*/System.out.println(patient1);
         
         Patient patient2=new Patient();
-        System.out.println("Patient 2 data is: Age - "+patient2.getAge()+" Blood type - "+
-                patient2.getBloodData()+" ID number - "+patient2.getIdNumber());
+        /*System.out.println("Patient 2 data is: Age - "+patient2.getAge()+" Blood type - "+
+                patient2.getBloodData()+" ID number - "+patient2.getIdNumber());*/
+        System.out.println(patient2);
     }
     
 }

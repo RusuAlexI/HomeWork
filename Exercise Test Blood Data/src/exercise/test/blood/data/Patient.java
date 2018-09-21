@@ -13,8 +13,9 @@ public class Patient{
         this.age = 0;
     }
 
-    public Patient(int idNumber, int age, BloodData bloadData) {
-        this.bloodData = bloadData;
+    public Patient(int idNumber, int age, BloodData bloodData) {
+        bloodData =new BloodData("O",'+');
+        this.bloodData = bloodData;
         this.idNumber = idNumber;
         this.age = age;
     }
@@ -44,5 +45,12 @@ public class Patient{
    public BloodData getBloodData(){
    return bloodData;
    }
+   
+    @Override
+    public String toString() {
+        return this.age+" "+this.bloodData.getBloodType()+" "+this.idNumber; 
+    }
+   
+   
 }
 
