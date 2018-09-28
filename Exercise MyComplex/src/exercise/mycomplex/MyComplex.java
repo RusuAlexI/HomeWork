@@ -41,27 +41,16 @@ public class MyComplex {
     }
 
     public boolean isReal() {
-        if (this.real * this.real == -1) {
-            return false;
-        } else {
-            return true;
-        }
+        return real != 0 && imag == 0;
     }
 
     public boolean isImaginary() {
-        if (this.imag * this.imag == -1) {
-            return true;
-        } else {
-            return false;
-        }
+        return !isReal();
     }
 
     public boolean equals(double real, double imag) {
-        if (this.imag == imag && this.real == real) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.imag == imag && this.real == real;
+
     }
 
     public boolean equals(MyComplex another) {

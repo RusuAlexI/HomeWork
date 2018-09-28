@@ -1,7 +1,6 @@
 
 package exercise.circle.and.cylinder;
 
-
 public class Cylinder extends Circle{
     private double height=1.0;
     
