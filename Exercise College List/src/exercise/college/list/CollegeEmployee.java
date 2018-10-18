@@ -7,6 +7,11 @@ public class CollegeEmployee extends Person{
     private int socialSecurityNumber;
     private int annualSalary;
     private String departmentName;
+
+    public CollegeEmployee() {
+    }
+    
+    
     
     @Override
     public void setData(){
