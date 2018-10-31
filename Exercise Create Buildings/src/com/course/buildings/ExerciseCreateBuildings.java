@@ -14,6 +14,7 @@ public class ExerciseCreateBuildings {
         System.out.println(building.toString());
         System.out.println(house.toString());
         System.out.println(school.toString());
+        school.printFromTo(5, 20);
     }
     
 }

@@ -1,0 +1,20 @@
+
+package exercise.preferred.customer;
+
+
+public class ExercisePreferredCustomer {
+
+
+    public static void main(String[] args) {
+        Person firstPerson=new Person("firstPersonName", "firstPersonAddress", "111-1111-1111");
+        Person secondPerson=new Customer(1, true, "secondPersonName", "secondPersonAddress", "222-2222-2222");
+        Customer firstCustomer=new Customer(2,false,"firstCustomer", "firstCustomerAddress", "333-3333-3333");
+        System.out.println(firstPerson.toString());
+        System.out.println(secondPerson.toString());
+        System.out.println(firstCustomer.toString());
+        PreferredCustomer firstPreferredCustomer=new PreferredCustomer(7, 54, true, "firstPreferredCustomer",
+                "firstPreferredCustomerAddress", "444-4444-4444");
+        System.out.println(firstPreferredCustomer.toString());
+    }
+    
+}

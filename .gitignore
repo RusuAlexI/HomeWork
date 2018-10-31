@@ -173,3 +173,23 @@ hs_err_pid*
 /Exercise Demo Runners/build/
 /Exercise Create Buildings/nbproject/private/
 /Exercise Create Buildings/build/
+/Demo/nbproject/private/
+/Demo/build/
+/Exercise Employee and ProductionWorker/nbproject/private/
+/Exercise Employee and ProductionWorker/build/
+/Exercise Employee ProductWorker ShiftSupervisor/nbproject/private/
+/Exercise Employee ProductWorker ShiftSupervisor/build/
+/Exercise Course Grades/nbproject/private/
+/Exercise Course Grades/build/
+/Exercise Course Grades Analyzable/nbproject/private/
+/Exercise Course Grades Analyzable/build/
+/Exercise Person and Customer/nbproject/private/
+/Exercise Person and Customer/build/
+/Exercise Person and Customer/dist/
+/Exercise Preferred Customer/nbproject/private/
+/Exercise Preferred Customer/build/
+/Exercise Ship CruiseShip CargoShip/nbproject/private/
+/Exercise Ship CruiseShip CargoShip/build/
+/Exercise Ship CruiseCargoLambda/nbproject/private/
+/Exercise Ship Lambda/nbproject/private/
+/Exercise Ship Lambda/build/

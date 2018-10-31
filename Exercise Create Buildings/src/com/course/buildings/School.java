@@ -14,6 +14,12 @@ public class School extends Building {
         this.numberOfClassRooms = numberOfClassRooms;
         this.GradeLevel = GradeLevel;
     }
+    
+    public void printFromTo(int from, int to){
+    for(int i=from; i<to+1;i++){
+        System.out.print(i+" ");            
+    }
+    }
 
     public int getNumberOfClassRooms() {
         return numberOfClassRooms;
